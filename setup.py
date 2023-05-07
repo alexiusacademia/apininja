@@ -5,7 +5,7 @@ with open('readme.md', 'r') as f:
 
 setup(
     name='apininja',
-    version='0.1.5',
+    version='0.1.6',
     author='Alex Academia',
     author_email='alexius.sayco.academia@gmail.com',
     description='An api module generator.',
