@@ -1,6 +1,6 @@
 # apininja
 
-`apininja` is a simple automation tool that generates a small boilerplate module
+`apininja` is a simple CLI automation tool that generates a small boilerplate module
 that serves as api for database models or other models. Currently it generates the basic
 CRUD operations as well as functions for serializing a single object to dictionary.
 
