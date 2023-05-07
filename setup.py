@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='apininja',
-    version='0.1.3',
+    version='0.1.4',
     author='Alex Academia',
     author_email='alexius.sayco.academia@gmail.com',
     description='An api module generator.',
