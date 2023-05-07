@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='apininja',
-    version='0.1.2',
+    version='0.1.3',
     author='Alex Academia',
     author_email='alexius.sayco.academia@gmail.com',
     description='An api module generator.',
@@ -11,7 +11,7 @@ setup(
     py_modules=['apininja'],
     entry_points={
         'console_scripts': [
-            'apininja = main:main',
+            'apininja = apininja:main',
         ],
     },
     classifiers=[
