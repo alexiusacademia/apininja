@@ -1,12 +1,16 @@
 from setuptools import setup
 
+with open('readme.md', 'r') as f:
+    long_description = f.read()
+
 setup(
     name='apininja',
-    version='0.1.4',
+    version='0.1.5',
     author='Alex Academia',
     author_email='alexius.sayco.academia@gmail.com',
     description='An api module generator.',
-    long_description='An api module generator.',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url='https://github.com/alexiusacademia/apininja',
     py_modules=['apininja'],
     entry_points={
