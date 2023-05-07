@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name='api_ninja',
-    version='0.1.1',
+    name='apininja',
+    version='0.1.2',
     author='Alex Academia',
     author_email='alexius.sayco.academia@gmail.com',
     description='An api module generator.',
